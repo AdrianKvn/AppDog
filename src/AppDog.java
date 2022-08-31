@@ -13,11 +13,14 @@ public class AppDog {
         dog.setRace("Dalmata");
         dog.setColors(colors);
         dog.setGenre("Masculino");
-        dog.setSterilization(true);
+        dog.setSterilization(false);
         dog.setWeight(10.2f);
 
-
         dog.eat();
+        System.out.println(dog);
+        dog.changeSterilization();
+        System.out.println(dog);
+
 
 
     }
